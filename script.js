@@ -1,6 +1,6 @@
 let title = '';
 let letterIndex = 0;
-let fullTitle = "Welcome, im Jonathan!";
+let fullTitle = "Welcome, i'm Jonathan!";
 
 const id = setInterval(()=> {
     if (letterIndex >= fullTitle.length) {
@@ -9,6 +9,10 @@ const id = setInterval(()=> {
         title += fullTitle[letterIndex];
         letterIndex++;
     }
-    text = document.getElementById("welcometext").innerText = title;
+    document.getElementById("welcometext").innerText = title;
+    var fragment = document.createElement('span');
+    fragment.innerHTML = " ▋";
+    fragment.id = 'type';
+    document.getElementById('welcometext').appendChild(fragment);
 }, 100)
 

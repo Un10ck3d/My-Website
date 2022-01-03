@@ -1,3 +1,26 @@
+:root {
+	font-size: 1.5rem;
+	--white-color: #edf2f4;
+	--gray-color: #8d99ae;
+	--black-color: #1c1d2c;
+	--red-color: #ef233c;
+	--red-dark-color: #d90429;
+
+	--primary-color: var(--red-color);
+	--secondary-color: var(--red-dark-color);
+	--text-color: var(--white-color);
+}
+
+@keyframes type {
+    from {
+      opacity: 0;
+      }
+ 
+     to {
+      opacity: 1;
+      }
+ }
+
 html {
     min-height: fit-content;
     scroll-behavior: smooth;
@@ -64,4 +87,16 @@ footer {
 
 #last {
     background-color: lightcoral;
+}
+
+#type {
+    animation: pulse 0.5s infinite alternate-reverse;
+}
+@keyframes pulse {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
