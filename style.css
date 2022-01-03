@@ -1,6 +1,7 @@
 html {
     min-height: fit-content;
     scroll-behavior: smooth;
+    background-color: gray;
 }
 
 body {
@@ -32,6 +33,10 @@ footer {
 	padding: 10%;
 }
 
+.sectiontwo {
+    color: white;
+}
+
 #contact {
 	font-size: 1.2rem;
 }
@@ -54,9 +59,9 @@ footer {
 }
 
 #middle {
-    background-color: lightpink;
+    background-color: lightgreen;
 }
 
 #last {
-    background-color: aquamarine;
+    background-color: lightcoral;
 }
