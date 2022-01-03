@@ -8,18 +8,19 @@ html {
     bottom: 0;
     width: 100%;
     background-color: gray;
-    color: white;
     text-align: center;
     font-weight: bold;
     height: 8;
+    font-size:x-large;
+    color: white;
 }
 
-.link {
-    color: aquamarine;
+.fab {
+    color: white;
 }
 
-.link:hover {
-    color: aqua;
+fab:hover {
+    color: gray;
 }
 
 .container {
