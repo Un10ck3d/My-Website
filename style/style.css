@@ -17,3 +17,11 @@
 .link:hover {
     color: aqua;
 }
+
+.first  {
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+}
