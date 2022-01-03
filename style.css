@@ -1,0 +1,70 @@
+html {
+    min-height: fit-content;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 8;
+}
+
+.link {
+    color: aquamarine;
+}
+
+.link:hover {
+    color: aqua;
+}
+
+.container {
+    position: relative;
+    top: 0;
+    
+}
+
+.first {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: auto;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 700%;
+}
+
+.second {
+    position: relative;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 700%;
+}
+
+.third {
+    position: relative;
+    left: 0;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 700%;
+}
+
+.fourth {
+    position: relative;
+    left: 0;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 700%;
+}
