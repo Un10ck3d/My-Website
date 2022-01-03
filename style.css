@@ -48,3 +48,15 @@ footer {
 .fab {
     color: black;
 }
+
+#front {
+    background-color: lightblue;
+}
+
+#middle {
+    background-color: lightpink;
+}
+
+#last {
+    background-color: aquamarine;
+}
