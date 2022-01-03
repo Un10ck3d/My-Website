@@ -1,71 +1,46 @@
 html {
     min-height: fit-content;
+    scroll-behavior: smooth;
 }
 
-.footer {
-    position: fixed;
+body {
+	text-align: center;
+	margin: 0;
+	overflow: overlay;
+	box-sizing: border-box;
+}
+
+* {
+	outline: none;
+    font-family: Roboto, sans-serif;
+}
+
+footer {
+    position: static;
     left: 0;
     bottom: 0;
-    width: 100%;
     background-color: gray;
     text-align: center;
     font-weight: bold;
     height: 8;
-    font-size:x-large;
     color: white;
+    padding: 3%;
+	font-size: 0.7rem;
+}
+
+.section {
+	padding: 10%;
+}
+
+.contact {
+	font-size: 1.2rem;
+}
+
+.contact i {
+    transition: all 0.4s;
+	margin: 1rem 3rem 1rem 3rem;
 }
 
 .fab {
-    color: white;
-}
-
-fab:hover {
-    color: gray;
-}
-
-.container {
-    position: relative;
-    top: 0;
-    
-}
-
-.first {
-    position: absolute;
-    left: 0;
-    top: 0%;
-    width: auto;
-    background-color: red;
-    text-align: center;
-    font-weight: bold;
-    font-size: 700%;
-}
-
-.second {
-    position: relative;
-    left: 0;
-    width: 100%;
-    background-color: blue;
-    text-align: center;
-    font-weight: bold;
-    font-size: 700%;
-}
-
-.third {
-    position: relative;
-    left: 0;
-    width: 100%;
-    background-color: blueviolet;
-    text-align: center;
-    font-weight: bold;
-    font-size: 700%;
-}
-
-.fourth {
-    position: relative;
-    left: 0;
-    width: 100%;
-    background-color: blueviolet;
-    text-align: center;
-    font-weight: bold;
-    font-size: 700%;
+    color: black;
 }
