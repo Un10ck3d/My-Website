@@ -47,13 +47,16 @@ footer {
 .fab {
     transition: all 0.4s;
 	margin: 1rem 3rem 1rem 3rem;
+    color: black;
 }
 
 .fab:hover {
 	transform: scale(1.3);
 }
 
-.fab {
+.fab:focus {
+    transition: all 0.4s;
+	margin: 1rem 3rem 1rem 3rem;
     color: black;
 }
 
