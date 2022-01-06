@@ -7,7 +7,7 @@ html {
 body {
 	text-align: center;
 	margin: 0;
-	overflow: overlay;
+	overflow: hidden;
 	box-sizing: border-box;
 }
 
