@@ -2,13 +2,18 @@ html {
     min-height: fit-content;
     scroll-behavior: smooth;
     background-color: gray;
+    -ms-overflow-style: none;
+    scrollbar-width: none;s
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 body {
-	text-align: center;
-	margin: 0;
-	overflow: overlay;
-	box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 * {
