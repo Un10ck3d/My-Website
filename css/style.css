@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
     background-color: gray;
     -ms-overflow-style: none;
-    scrollbar-width: none;s
+    scrollbar-width: none;
 }
 
 html::-webkit-scrollbar {
@@ -63,11 +63,11 @@ footer {
 }
 
 .fab:hover {
-	transform: scale(1.3);
+	transform: scale(1.4);
 }
 
 .fas:hover {
-	transform: scale(1.3);
+	transform: scale(1.4);
 }
 
 .fab:focus {
@@ -97,12 +97,32 @@ footer {
 #type {
     animation: pulse 0.5s infinite alternate-reverse;
 }
+
+.pulsesize {
+    position: relative;
+    animation: positionmove 2s infinite alternate-reverse;
+}
+
 @keyframes pulse {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes positionmove {
+    from {top: 0px;}
+    to {top: 15px;}
+  }
+
+@keyframes pulsesizea {
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 1.25;
     }
 }
 
